@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tone JS</title>
+  </head>
+  <body>
+
+        <div class="object" onclick="toneJS1()"> <p>ToneJS 1<p></div>
+        <div class="object" onclick="toneJS2()"> <p>ToneJS 2<p></div>
+        <div class="object" onclick="toneJS3()"> <p>ToneJS 3<p></div>
+        <div class="object" onclick="toneJS4()"> <p>ToneJS 4<p></div>
+        <div class="object" onclick="toneJS5()"> <p>ToneJS 5<p></div>
+        <div class="object" onclick="toneJS6()"> <p>ToneJS 6<p></div>
+        <div class="object" onclick="loadUI()"> <p>Load UI<p></div>
+
+        <tone-content>
+			<tone-trigger></tone-trigger>
+			<tone-envelope><tone-envelope>
+		</tone-envelope></tone-envelope></tone-content>
+
+		<tone-drawer collapsed="">
+			<tone-oscillator collapsed="" frequency=""><tone-oscillator>
+		</tone-oscillator></tone-oscillator></tone-drawer>
+	</tone-example>
+  
+  </body>
+
+  <!-- The script tag links to the Javascript file -->
+  <script src="app.js"></script>
+
+  <!-- Link to the ToneJS library -->
+  <script src="Tone.js"></script>
+
+  <!-- Link to the ToneJS interfaces -->
+  <script src="tonejs-ui.js"></script>
+
+  <!-- Reference to the stylesheet -->
+  <link rel = "stylesheet" type = "text/css" href = "style.css" />
+
+</html>

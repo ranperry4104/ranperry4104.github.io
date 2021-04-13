@@ -1,0 +1,19 @@
+body {
+    color: white;
+    background-color: #171b21;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.object {
+    height: 200px;
+    width: 200px;
+    color: white;
+    border: solid white;
+    margin: 20px;
+    display: inline-block
+}
+
+p {
+    margin: 10px;
+}
